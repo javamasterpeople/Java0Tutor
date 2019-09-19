@@ -8,8 +8,13 @@ package basicsOfSoftwareCodeDevelopment;
 import java.util.Scanner;
 
 public class BranchingTask1 {
+	
+
+	
+	
 
 	public static void main(String[] args) {
+
 		int sumOfAnglesForATriangle = 180;
 		int rightAngle = 90;
 		Scanner input = new Scanner (System.in);
@@ -29,4 +34,6 @@ public class BranchingTask1 {
 			System.out.println("Triangle does not exist!");
 		input.close();
 	}
+	
+
 }
